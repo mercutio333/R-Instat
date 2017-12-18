@@ -176,6 +176,12 @@
     <Compile Include="dlgAutoSaveRecovery.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="dlgBackupManager.Designer.vb">
+      <DependentUpon>dlgBackupManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgBackupManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dlgCalculationsSummary.Designer.vb">
       <DependentUpon>dlgCalculationsSummary.vb</DependentUpon>
     </Compile>
@@ -288,6 +294,12 @@
       <DependentUpon>dlgParallelCoordinatePlot.vb</DependentUpon>
     </Compile>
     <Compile Include="dlgParallelCoordinatePlot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgRestoreLevelHierachy.Designer.vb">
+      <DependentUpon>dlgRestoreLevelHierachy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgRestoreLevelHierachy.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="dlgVariableSets.Designer.vb">
@@ -2182,6 +2194,9 @@
     <EmbeddedResource Include="dlgAutoSaveRecovery.sw-KE.resx">
       <DependentUpon>dlgAutoSaveRecovery.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dlgBackupManager.resx">
+      <DependentUpon>dlgBackupManager.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dlgCalculationsSummary.fr-FR.resx">
       <DependentUpon>dlgCalculationsSummary.vb</DependentUpon>
     </EmbeddedResource>
@@ -2718,6 +2733,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="dlgRenameDataFrame.resx">
       <DependentUpon>dlgRenameDataFrame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgRestoreLevelHierachy.resx">
+      <DependentUpon>dlgRestoreLevelHierachy.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dlgRowNamesOrNumbers.fr-FR.resx">
       <DependentUpon>dlgRowNamesOrNumbers.vb</DependentUpon>
@@ -6179,6 +6197,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="static\Library\Climatic\Dodoma.rds">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="static\Library\Climatic\WesternKenya.RDS">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
